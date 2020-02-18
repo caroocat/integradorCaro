@@ -1,0 +1,9 @@
+@Host= http://localhost:7777
+###
+GET  {{Host}}/productos
+content-type: application/json
+
+
+###
+DELETE {{Host}}/productos/1
+content-type: application/json
